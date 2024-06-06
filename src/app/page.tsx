@@ -50,7 +50,7 @@ export default function Home() {
             alt=""
             className="h-68 w-full object-cover transition duration-500"
           />
-          <div className="card-body flex justify-center items-centre align-center py-12 ">
+          <div className="card-body flex justify-center items-centre align-center py-4 ">
             {quoteLoading ? (
               <Lottie options={defaultOptions} height={100} width={100} />
             ) : (
